@@ -4,7 +4,8 @@ description: Render session state as spatial ASCII map showing threads, activity
 allowed-tools: []
 ---
 
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+*Created by [Danielle Fong](https://daniellefong.com/) · [𝕏](https://x.com/DanielleFong)*
+*Packaged by [Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # Hypercontext — Spatial Context Awareness
  

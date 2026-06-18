@@ -13,7 +13,6 @@ Planning, prioritization, and session context management.
 **User-invoked**
 
 - **[gtd](./skills/executive-function/gtd/SKILL.md)** — Weekly and daily planning with tradeoff visualization and Notion integration.
-- **[hypercontext](./skills/executive-function/hypercontext/SKILL.md)** — Render session state as a spatial ASCII map: threads, activity heat, files, tools, and context runway.
 
 ### Writing
 
@@ -50,3 +49,4 @@ Skills for building and maintaining skills.
 **User-invoked**
 
 - **[skill-create-workflow](./skills/meta/skill-create-workflow/SKILL.md)** — Expert guide for creating and writing Claude Code skills. Covers structure, best practices, bundled resources, and packaging.
+- **[hypercontext](./skills/meta/hypercontext/SKILL.md)** — Render session state as a spatial ASCII map: threads, activity heat, files, tools, and context runway. Created by [Danielle Fong](https://daniellefong.com/).

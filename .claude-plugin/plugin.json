@@ -2,7 +2,7 @@
   "name": "exobrain-skills",
   "skills": [
     "./skills/executive-function/gtd",
-    "./skills/executive-function/hypercontext",
+    "./skills/meta/hypercontext",
     "./skills/writing/de-ai",
     "./skills/writing/nerdsnipe",
     "./skills/research/download-url",
