@@ -137,3 +137,6 @@ The goal is information density without sacrificing clarity. One well-placed emo
 ASCII diagrams serve as cognitive anchors—visual representations that can be carried forward across conversations. They make abstract philosophical tensions concrete and help pattern recognition across domains.
 
 *Remember: The goal isn't artistic perfection but conceptual clarity. A simple, clear diagram beats a complex, beautiful one.*
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

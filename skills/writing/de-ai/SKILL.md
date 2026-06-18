@@ -104,3 +104,6 @@ The skill:
 ## The Test
 
 Read it aloud. Does it sound like a specific person talking? Not professional writing - but THIS person, in THIS context, explaining THIS thing.
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

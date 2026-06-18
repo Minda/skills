@@ -231,3 +231,6 @@ Creates: `./transcripts/content-based-name.json|md`
 - **Do** use descriptive filenames based on content
 - **Don't** load full transcript into LLM context (too large)
 - **Don't** overwrite existing files without confirmation
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

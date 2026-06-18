@@ -415,3 +415,7 @@ Need to investigate what happened at that point.
 - **dashboard-viz** — Pre-built dashboard layouts (for when you know what you're building)
 - **notebook** — Statistical analysis (when you need precision)
 - **tui-viz-library** — Reference of all text-based characters
+
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

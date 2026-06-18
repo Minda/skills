@@ -387,3 +387,7 @@ Quick examples:
 - **Tradeoff visualization:** Showing allocation options
 - **Quick state check:** Current focus view
 - **End of day:** Wrap-up and next-action planning
+
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

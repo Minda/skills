@@ -229,3 +229,6 @@ The goal isn't to make things artificially exciting. It's to reveal the genuine 
 5. Permission to explore
 
 Make research feel like the world's best puzzle game.
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

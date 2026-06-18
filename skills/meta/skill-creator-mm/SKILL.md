@@ -63,3 +63,7 @@ A comprehensive guide for creating effective Claude Code skills that extend Clau
 
 Renamed from skill-creator to skill-creator-mm (MM initials).
 
+
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

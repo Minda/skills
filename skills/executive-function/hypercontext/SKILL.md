@@ -153,3 +153,7 @@ At **~70% context usage**, recommend:
 
 **User:** `/hypercontext heat`
 → Show activity heat map with recency ranking
+
+---
+
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
