@@ -2,6 +2,7 @@
 name: nerdsnipe
 description: Transform any text into irresistibly engaging problems that smart people can't help but solve. Use when user says "/nerdsnipe", "make this more nerdsnipeable", "make this irresistible", "hook smart people", or "nerdsnipe this problem".
 allowed-tools: []
+argument-hint: "<text or problem to transform — or leave blank to see a preview>"
 ---
 
 *[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
@@ -36,6 +37,28 @@ Or in conversation: "make this more nerdsnipeable" or "nerdsnipe this problem"
 ║  6. Concrete First Step → "Start here"   ║
 ╚══════════════════════════════════════════╝
 ```
+
+## Invocation
+
+**If the user provided text as an argument:** transform it immediately — skip to Quick Transformation or Full Document Transformation depending on length.
+
+**If invoked with no argument:** show this preview and ask for the text:
+
+```
+╔══════════════════════════════════════════╗
+║  🧲 NERDSNIPE                            ║
+║  Make any problem irresistible           ║
+╠══════════════════════════════════════════╣
+║  1. Intellectual Offense → "It's absurd" ║
+║  2. Low-Hanging Fruit → "You could be 1st"║
+║  3. Difficulty Ladder → A→B→C→D ratings  ║
+║  4. Visual Evidence → Partial solutions  ║
+║  5. Permission to Fail → "Learning wins" ║
+║  6. Concrete First Step → "Start here"   ║
+╚══════════════════════════════════════════╝
+```
+
+Then ask: **"Paste the text you want to nerdsnipe — or describe the problem:"**
 
 ## Instructions
 
