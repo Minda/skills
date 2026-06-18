@@ -4,7 +4,7 @@ description: Create or edit Mermaid diagram files (.mmd) that render correctly i
 argument-hint: "<describe the diagram to create, or path to an existing .mmd file to edit>"
 ---
 
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+*[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # /mermaid
 

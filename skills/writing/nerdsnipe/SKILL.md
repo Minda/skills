@@ -5,7 +5,7 @@ allowed-tools: []
 argument-hint: "<text or problem to transform — or leave blank to see a preview>"
 ---
 
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+*[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # Nerdsnipe
 

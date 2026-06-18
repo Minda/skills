@@ -5,7 +5,7 @@ allowed-tools: [Read, Write, Bash, Edit]
 argument-hint: "<text to humanize — or leave blank to see what this does>"
 ---
 
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+*[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # De-AI Text Transformation
 

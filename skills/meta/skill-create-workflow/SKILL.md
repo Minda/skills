@@ -5,7 +5,7 @@ allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
 argument-hint: "<skill idea or name — or leave blank to start from scratch>"
 ---
 
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+*[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # /skill-create-workflow
 
@@ -20,6 +20,8 @@ Collaborative skill creation. Works through 11 structured questions with you —
 **Without argument**: ask for a brief description of the skill idea first, then begin Part 1.
 
 **Want more control over the flow?** Fill in [`templates/skill-request-longform.md`](./templates/skill-request-longform.md) before invoking — any sections you complete will be used directly; blank sections will be filled in collaboratively. The template covers all 11 sections and is safe to leave partially filled.
+
+**Header template:** Every new `SKILL.md` created by this skill includes the author header from [`templates/skill-header.md`](./templates/skill-header.md). Replace the values in that file with your own name, website, X handle, and repo before creating skills — or update them in each file after.
 
 ## Collaboration Style
 
