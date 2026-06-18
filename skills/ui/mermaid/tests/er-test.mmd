@@ -1,0 +1,36 @@
+---
+title: ER Diagram Test — entities, attributes, relationships
+---
+%% Exercises Mermaid ER diagram constructs: entities with attributes (with type and PK/FK
+%% markers), three relationship cardinalities (one-to-one, one-to-many, many-to-many),
+%% and a relationship label. The bake script was designed for flowcharts — this file is
+%% the regression test for whether ER diagrams need their own pass set.
+erDiagram
+    USER ||--o{ ORDER : "places"
+    USER {
+        string id PK
+        string email
+        string name
+        timestamp created_at
+    }
+    ORDER ||--|{ ORDER_ITEM : "contains"
+    ORDER {
+        string id PK
+        string user_id FK
+        decimal total
+        timestamp placed_at
+    }
+    ORDER_ITEM }o--|| PRODUCT : "refers to"
+    ORDER_ITEM {
+        string id PK
+        string order_id FK
+        string product_id FK
+        int quantity
+        decimal unit_price
+    }
+    PRODUCT {
+        string id PK
+        string name
+        string description
+        decimal price
+    }

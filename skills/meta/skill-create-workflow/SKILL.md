@@ -1,5 +1,5 @@
 ---
-name: skill-creator-mm
+name: skill-create-workflow
 description: Expert guide for creating and writing Claude Code skills. Use this when the user wants to create a new skill or learn about skill structure and best practices.
 allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
 ---

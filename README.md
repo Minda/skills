@@ -41,6 +41,7 @@ Visual output: ASCII diagrams and data visualizations.
 
 - **[lowkey-viz](./skills/ui/lowkey-viz/SKILL.md)** — Bootstrap-style TUI components for data exploration. Generates Markdown visualizations that surface patterns, outliers, and edges in any dataset.
 - **[creating-ascii-drawings](./skills/ui/creating-ascii-drawings/SKILL.md)** — Create visual ASCII diagrams to capture complex conceptual relationships.
+- **[mermaid](./skills/ui/mermaid/SKILL.md)** — Create and edit Mermaid diagram files (.mmd) that render correctly in Figma via plugin or native SVG export.
 
 ### Meta
 
@@ -48,4 +49,4 @@ Skills for building and maintaining skills.
 
 **User-invoked**
 
-- **[skill-creator-mm](./skills/meta/skill-creator-mm/SKILL.md)** — Expert guide for creating and writing Claude Code skills. Covers structure, best practices, bundled resources, and packaging.
+- **[skill-create-workflow](./skills/meta/skill-create-workflow/SKILL.md)** — Expert guide for creating and writing Claude Code skills. Covers structure, best practices, bundled resources, and packaging.

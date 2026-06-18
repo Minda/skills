@@ -9,6 +9,7 @@
     "./skills/research/youtube-fetching-transcripts",
     "./skills/ui/creating-ascii-drawings",
     "./skills/ui/lowkey-viz",
-    "./skills/meta/skill-creator-mm"
+    "./skills/meta/skill-create-workflow",
+    "./skills/ui/mermaid"
   ]
 }

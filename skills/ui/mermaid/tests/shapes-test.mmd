@@ -1,0 +1,78 @@
+---
+title: Shapes & Labels Test — every flowchart shape, multi-line labels, HTML entities, nested subgraphs
+---
+%% Exercises every Mermaid flowchart node shape plus 1/2/3/4-line labels, HTML entities,
+%% nested subgraphs, and a long edge label. Each shape uses an inline style directive so
+%% the bake workflow can lift the fill into a direct SVG attribute.
+%%{init: {"flowchart": {"htmlLabels": false}}}%%
+graph TB
+    subgraph Outer["Outer cluster\n(nested below)"]
+        subgraph Inner["Inner cluster"]
+            R1["One-line rect"]
+            R2["Two-line rect
+                second line"]
+            R3["Three-line rect
+                second line
+                third line"]
+            R4["Four-line rect
+                second line
+                third line
+                fourth line"]
+        end
+        Rounded("Rounded
+            (two lines)")
+        Stadium(["Stadium shape
+            (two lines)"])
+        Sub[["Subroutine
+            (two lines)"]]
+        Cyl[("Cylinder
+            (two lines)")]
+        Circle(("Circle
+            (two lines)"))
+        Asym>"Asymmetric
+            (two lines)"]
+        Diamond{"Diamond
+            (two lines)"}
+        Hex{{"Hexagon
+            (two lines)"}}
+        Para[/"Parallelogram
+            (two lines)"/]
+        Trap[/"Trapezoid
+            (two lines)"\]
+        DCircle((("Double circle
+            (two lines)")))
+        Entities["HTML entities: A &amp; B &lt; C &gt; D"]
+    end
+
+    R1 --> R2
+    R2 -->|"Short label"| R3
+    R3 -->|"This is a fairly long edge label that should wrap or run wide"| R4
+    R4 --> Rounded
+    Rounded --> Stadium
+    Stadium --> Sub
+    Sub --> Cyl
+    Cyl --> Circle
+    Circle --> Asym
+    Asym --> Diamond
+    Diamond --> Hex
+    Hex --> Para
+    Para --> Trap
+    Trap --> DCircle
+    DCircle --> Entities
+
+    style R1       fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style R2       fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style R3       fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style R4       fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style Rounded  fill:#DBEAFE,stroke:#1E3A8A,stroke-width:1px,color:#111
+    style Stadium  fill:#DBEAFE,stroke:#1E3A8A,stroke-width:1px,color:#111
+    style Sub      fill:#DBEAFE,stroke:#1E3A8A,stroke-width:1px,color:#111
+    style Cyl      fill:#D1FAE5,stroke:#065F46,stroke-width:1px,color:#111
+    style Circle   fill:#D1FAE5,stroke:#065F46,stroke-width:1px,color:#111
+    style Asym     fill:#FEF3C7,stroke:#92400E,stroke-width:1px,color:#111
+    style Diamond  fill:#FEF3C7,stroke:#92400E,stroke-width:1px,color:#111
+    style Hex      fill:#FEF3C7,stroke:#92400E,stroke-width:1px,color:#111
+    style Para     fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style Trap     fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style DCircle  fill:#DBEAFE,stroke:#1E3A8A,stroke-width:1px,color:#111
+    style Entities fill:#D1FAE5,stroke:#065F46,stroke-width:1px,color:#111

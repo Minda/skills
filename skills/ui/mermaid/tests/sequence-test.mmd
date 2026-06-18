@@ -1,0 +1,38 @@
+---
+title: Sequence Diagram Test — actors, messages, notes, activations, loops
+---
+%% Exercises Mermaid sequence diagram constructs: actor declarations with multi-line
+%% participants, sync and async messages, self-messages, activations, notes spanning
+%% participants, and a loop with an alt branch. The bake script was designed for
+%% flowcharts — this file is the regression test for whether sequence diagrams need
+%% their own pass set.
+sequenceDiagram
+    participant U as User
+    participant GE as Gemini<br/>Enterprise
+    participant AE as Agent<br/>Engine
+    participant CR as Cloud<br/>Run
+
+    U->>GE: Ask a question
+    activate GE
+    GE->>AE: Forward to brain
+    activate AE
+    Note over AE: Process and<br/>plan tool call
+    AE->>CR: POST /tool
+    activate CR
+    CR->>CR: Run tool logic
+    CR-->>AE: HTTP 200 JSON
+    deactivate CR
+    loop until satisfied
+        AE->>CR: Refine
+        activate CR
+        CR-->>AE: Result
+        deactivate CR
+    end
+    alt success
+        AE-->>GE: Final answer
+    else error
+        AE-->>GE: Error message
+    end
+    deactivate AE
+    GE-->>U: Response
+    deactivate GE

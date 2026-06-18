@@ -1,0 +1,30 @@
+---
+title: Orientation Test — graph LR (left-to-right) layout
+---
+%% Same shape mix as shapes-test.mmd but laid out horizontally. Checks that LR
+%% orientation, which positions labels and edges differently, still survives the
+%% mmdc → bake → Figma pipeline.
+%%{init: {"flowchart": {"htmlLabels": false}}}%%
+graph LR
+    subgraph LR_Cluster["LR cluster"]
+        A["Start
+            (two-line)"]
+        B(["Stadium
+            shape"])
+        C[("Cylinder
+            with data")]
+        D{"Decision"}
+        E["End"]
+    end
+
+    A -->|"Step 1"| B
+    B -->|"Step 2"| C
+    C -->|"Step 3"| D
+    D -->|"Yes"| E
+    D -->|"No\nfallback"| A
+
+    style A fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
+    style B fill:#DBEAFE,stroke:#1E3A8A,stroke-width:1px,color:#111
+    style C fill:#D1FAE5,stroke:#065F46,stroke-width:1px,color:#111
+    style D fill:#FEF3C7,stroke:#92400E,stroke-width:1px,color:#111
+    style E fill:#FCE7F3,stroke:#9D174D,stroke-width:1px,color:#111
