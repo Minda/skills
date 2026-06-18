@@ -11,6 +11,8 @@ argument-hint: "<skill idea or name — or leave blank to start from scratch>"
 
 Collaborative skill creation. Works through 11 structured questions with you — invocation, workflow shape, failure modes, file layout — and builds the SKILL.md from your answers.
 
+> Built on Anthropic's official [`skill-creator`](https://github.com/anthropics/skills) skill, adapted for skills with **longer workflows, branching elements, and iterative refinement cycles** — the kind where a single linear pass isn't enough to get it right.
+
 ## Invocation
 
 **With argument** (skill name or rough idea): start the worksheet, pre-filling what you already know from the argument.
