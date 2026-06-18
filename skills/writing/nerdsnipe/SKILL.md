@@ -1,3 +1,9 @@
+---
+name: nerdsnipe
+description: Transform any text into irresistibly engaging problems that smart people can't help but solve. Use when user says "/nerdsnipe", "make this more nerdsnipeable", "make this irresistible", "hook smart people", or "nerdsnipe this problem".
+allowed-tools: []
+---
+
 *[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # Nerdsnipe

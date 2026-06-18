@@ -1,12 +1,12 @@
+---
+name: de-ai
+description: Transform AI-generated text to sound more human by removing telltale patterns and adding authentic details. Use when user says "/de-ai", "humanize this", "make this sound less AI", or "de-AI this text".
+allowed-tools: [Read, Write, Bash, Edit]
+---
+
 *[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
-# ---
-# title: De-AI Text Transformation
-# description: Transforms text into more natural, human-sounding language by removing AI-generated patterns and adding authentic details.
-# tags: text, natural-language, humanize, ai-pattern-removal
-# author: @minda
-# ---
-# /de-ai - Remove AI-Generated Patterns from Text
+# De-AI Text Transformation
 
 ## Purpose
 Transform AI-generated text to sound more human by removing telltale patterns and adding authentic details.
