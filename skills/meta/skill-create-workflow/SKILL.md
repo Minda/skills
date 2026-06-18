@@ -19,6 +19,8 @@ Collaborative skill creation. Works through 11 structured questions with you —
 
 **Without argument**: ask for a brief description of the skill idea first, then begin Part 1.
 
+**Want more control over the flow?** Fill in [`templates/skill-request-longform.md`](./templates/skill-request-longform.md) before invoking — any sections you complete will be used directly; blank sections will be filled in collaboratively. The template covers all 11 sections and is safe to leave partially filled.
+
 ## Collaboration Style
 
 - **Quote the user verbatim** wherever possible — even imperfect phrasing — then suggest an expanded version of what you perceive to be their intent
