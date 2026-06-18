@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "lastUpdated": "2026-02-04",
+    "description": "Complete catalog of official, partner, community, and project skills for Claude Code (renamed skill-creator-mm)",
+    "counts": {
+      "total": 126,
+      "official": 16,
+      "partner": 40,
+      "community": 44,
+      "project": 19,
+      "personal": 7
+    },
+    "localPaths": {
+      "downloaded": "vendor/get-skill/",
+      "anthropicRepo": "vendor/get-skill/anthropic-skills-repo/skills/",
+      "project": ".claude/skills/",
+      "personal": "personal/.claude/skills/"
+    }
+  },
+  "categories": {
+    "Document Processing": {
+      "description": "Skills for creating, editing, and analyzing various document formats",
+      "count": 10
+    },
+    "Development": {
+      "description": "Core development workflows, testing, and code quality tools",
+      "count": 25
+    },
+    "Creative & Design": {
+      "description": "Art generation, UI design, and visual content creation",
+      "count": 12
+    },
+    "Security": {
+      "description": "Security testing, vulnerability analysis, and secure coding practices",
+      "count": 20
+    },
+    "AI/ML": {
+      "description": "Machine learning, model training, and AI research tools",
+      "count": 20
+    },
+    "Infrastructure": {
+      "description": "Cloud infrastructure, DevOps, and deployment tools",
+      "count": 15
+    },
+    "Project Management": {
+      "description": "Issue tracking, documentation, and team collaboration",
+      "count": 8
+    },
+    "Databases": {
+      "description": "Database operations, queries, and data management",
+      "count": 8
+    },
+    "Mobile Development": {
+      "description": "iOS, Android, and React Native development",
+      "count": 6
+    },
+    "Media Generation": {
+      "description": "Video, audio, and image generation tools",
+      "count": 10
+    }
+  }
+}

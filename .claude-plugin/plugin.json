@@ -1,0 +1,14 @@
+{
+  "name": "exobrain-skills",
+  "skills": [
+    "./skills/executive-function/gtd",
+    "./skills/executive-function/hypercontext",
+    "./skills/writing/de-ai",
+    "./skills/writing/nerdsnipe",
+    "./skills/research/download-url",
+    "./skills/research/youtube-fetching-transcripts",
+    "./skills/ui/creating-ascii-drawings",
+    "./skills/ui/lowkey-viz",
+    "./skills/meta/skill-creator-mm"
+  ]
+}
