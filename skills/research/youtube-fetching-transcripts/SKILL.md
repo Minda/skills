@@ -4,6 +4,8 @@ description: Fetch YouTube transcripts with optional custom directory, text-only
 allowed-tools: [Read, Write, Bash, Edit]
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Fetching YouTube Transcripts (Enhanced)
 
 Fetch YouTube video transcripts with advanced features:
@@ -231,6 +233,3 @@ Creates: `./transcripts/content-based-name.json|md`
 - **Do** use descriptive filenames based on content
 - **Don't** load full transcript into LLM context (too large)
 - **Don't** overwrite existing files without confirmation
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

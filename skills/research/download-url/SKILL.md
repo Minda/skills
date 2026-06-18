@@ -10,6 +10,8 @@ allowed-tools:
 user-invocable: true
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Download URL
 
 Download web articles to PDF and Markdown format. Supports both single articles and multi-page documentation sites.
@@ -176,7 +178,3 @@ IMPORTANT: Only combine PDFs that are clearly related!
 | No content extracted | "Could not extract article content. The site may require JavaScript." |
 | No matching PDFs for pattern | "No PDFs found matching pattern. Check the pattern or download files first." |
 | Merge failed | "Could not combine PDFs. Check that files are valid and accessible." |
-
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

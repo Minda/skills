@@ -11,6 +11,8 @@ database_url: https://www.notion.so/mindamyers/Q1-Projects-2026-3173caf373e0816d
 data_source_id: collection://3173caf3-73e0-81d0-9628-000bac03a5a4
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # GTD (Getting Things Done)
 
 <!-- Notion Links (update here if URLs change) -->
@@ -387,7 +389,3 @@ Quick examples:
 - **Tradeoff visualization:** Showing allocation options
 - **Quick state check:** Current focus view
 - **End of day:** Wrap-up and next-action planning
-
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

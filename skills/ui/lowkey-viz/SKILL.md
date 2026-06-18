@@ -10,6 +10,8 @@ slash_commands:
     description: Browse all available pattern components
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Lowkey Viz
 
 **Bootstrap for data exploration.** Generate Markdown visualizations that surface patterns, surprises, and edges in any dataset.
@@ -415,7 +417,3 @@ Need to investigate what happened at that point.
 - **dashboard-viz** — Pre-built dashboard layouts (for when you know what you're building)
 - **notebook** — Statistical analysis (when you need precision)
 - **tui-viz-library** — Reference of all text-based characters
-
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

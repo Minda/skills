@@ -4,6 +4,8 @@ description: Render session state as spatial ASCII map showing threads, activity
 allowed-tools: []
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Hypercontext — Spatial Context Awareness
  
 **Trigger:** User says `/hypercontext`, `/hypercontext compact`, `/hypercontext threads`, or `/hypercontext heat`
@@ -153,7 +155,3 @@ At **~70% context usage**, recommend:
 
 **User:** `/hypercontext heat`
 → Show activity heat map with recency ranking
-
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

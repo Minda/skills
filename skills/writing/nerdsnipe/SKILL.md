@@ -1,3 +1,5 @@
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Nerdsnipe
 
 Transform any text into irresistibly engaging problems that smart people can't help but solve. Targets specific intellectual taste violations to create magnetic research questions.
@@ -229,6 +231,3 @@ The goal isn't to make things artificially exciting. It's to reveal the genuine 
 5. Permission to explore
 
 Make research feel like the world's best puzzle game.
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*

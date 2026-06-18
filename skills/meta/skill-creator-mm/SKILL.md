@@ -4,6 +4,8 @@ description: Expert guide for creating and writing Claude Code skills. Use this 
 allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
 ---
 
+*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
+
 # Skill Creator MM
 
 A comprehensive guide for creating effective Claude Code skills that extend Claude's capabilities with specialized knowledge, workflows, and tool integrations.
@@ -63,7 +65,3 @@ A comprehensive guide for creating effective Claude Code skills that extend Clau
 
 Renamed from skill-creator to skill-creator-mm (MM initials).
 
-
----
-
-*[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
