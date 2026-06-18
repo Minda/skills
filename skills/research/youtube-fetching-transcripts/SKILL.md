@@ -233,3 +233,6 @@ Creates: `./transcripts/content-based-name.json|md`
 - **Do** use descriptive filenames based on content
 - **Don't** load full transcript into LLM context (too large)
 - **Don't** overwrite existing files without confirmation
+## Install
+
+`npx skills add Minda/skills` — then select **youtube-fetching-transcripts** when prompted.

@@ -128,3 +128,6 @@ The skill:
 ## The Test
 
 Read it aloud. Does it sound like a specific person talking? Not professional writing - but THIS person, in THIS context, explaining THIS thing.
+## Install
+
+`npx skills add Minda/skills` — then select **de-ai** when prompted.

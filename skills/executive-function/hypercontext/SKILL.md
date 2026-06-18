@@ -155,3 +155,7 @@ At **~70% context usage**, recommend:
 
 **User:** `/hypercontext heat`
 → Show activity heat map with recency ranking
+
+## Install
+
+`npx skills add Minda/skills` — then select **hypercontext** when prompted.

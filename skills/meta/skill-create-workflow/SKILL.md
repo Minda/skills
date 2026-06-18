@@ -279,3 +279,7 @@ Concise input/output pairs.
 | `references/best-practices.md` | Questions about writing style, testing, anti-patterns |
 | `references/examples.md` | Need concrete examples of complete skills |
 | `references/advanced-skill-patterns.md` | Progressive disclosure, bundled scripts, workflow routing |
+
+## Install
+
+`npx skills add Minda/skills` — then select **skill-create-workflow** when prompted.

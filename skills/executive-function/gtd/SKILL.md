@@ -389,3 +389,7 @@ Quick examples:
 - **Tradeoff visualization:** Showing allocation options
 - **Quick state check:** Current focus view
 - **End of day:** Wrap-up and next-action planning
+
+## Install
+
+`npx skills add Minda/skills` — then select **gtd** when prompted.

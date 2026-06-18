@@ -178,3 +178,7 @@ IMPORTANT: Only combine PDFs that are clearly related!
 | No content extracted | "Could not extract article content. The site may require JavaScript." |
 | No matching PDFs for pattern | "No PDFs found matching pattern. Check the pattern or download files first." |
 | Merge failed | "Could not combine PDFs. Check that files are valid and accessible." |
+
+## Install
+
+`npx skills add Minda/skills` — then select **download-url** when prompted.

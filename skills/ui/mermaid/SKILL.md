@@ -476,3 +476,7 @@ will cause a parse error (`Cannot convert undefined or null to object`). Always 
 ```
 %% Use the init directive to disable htmlLabels.
 ```
+
+## Install
+
+`npx skills add Minda/skills` — then select **mermaid** when prompted.
