@@ -2,11 +2,33 @@
 name: de-ai
 description: Transform AI-generated text to sound more human by removing telltale patterns and adding authentic details. Use when user says "/de-ai", "humanize this", "make this sound less AI", or "de-AI this text".
 allowed-tools: [Read, Write, Bash, Edit]
+argument-hint: "<text to humanize — or leave blank to see what this does>"
 ---
 
 *[Minda Myers](https://mindamyers.com) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
 # De-AI Text Transformation
+
+## Invocation
+
+**If the user provided text as an argument:** transform it immediately.
+
+**If invoked with no argument:** show this preview and ask for the text:
+
+```
+┌─────────────────────────────────────────┐
+│  ✂️  DE-AI                               │
+│  Make AI text sound like a human wrote it│
+├─────────────────────────────────────────┤
+│  → Remove em dashes and hedging         │
+│  → Swap buzzwords for plain words       │
+│  → Break rhythm, add fragments          │
+│  → Insert specific details and "I"s     │
+│  → Pass the read-aloud test             │
+└─────────────────────────────────────────┘
+```
+
+Then ask: **"Paste the text to de-AI — or describe a tone to aim for:"**
 
 ## Purpose
 Transform AI-generated text to sound more human by removing telltale patterns and adding authentic details.
