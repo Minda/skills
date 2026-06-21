@@ -22,7 +22,7 @@ Text creation and transformation.
 
 - **[de-ai](./skills/writing/de-ai/SKILL.md)** — Transform AI-generated text to sound more human by removing telltale patterns and adding authentic voice.
 - **[nerdsnipe](./skills/writing/nerdsnipe/SKILL.md)** — Make any problem irresistibly engaging to curious minds by surfacing intellectual offense and low-hanging fruit.
-- **[reading-bedtime-stories](./skills/writing/reading-bedtime-stories/SKILL.md)** — Generate a ≈20-minute bedtime story on any topic, TTS-ready (Speechify, Eleven Reader), threading real substance with a structural wind-down.
+- **[bedtime-story](./skills/writing/bedtime-story/SKILL.md)** — Generate a ≈20-minute bedtime story on any topic, TTS-ready (Speechify, Eleven Reader), threading real substance with a structural wind-down.
 
 ### Research
 

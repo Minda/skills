@@ -1,5 +1,5 @@
 ---
-name: reading-bedtime-stories
+name: bedtime-story
 description: Generate a roughly 20-minute bedtime story on any topic, formatted for text-to-speech playback (Speechify, Eleven Reader, Apple/Android system TTS). Threads substantive content with a structural wind-down so the listener can both learn and drift toward sleep. Use when user says "bedtime story", "tell me a story about", "wind-down story", "read me to sleep", or wants a sleep-friendly narrated piece on a chosen topic.
 allowed-tools: [Read, Write, Bash, Glob, Grep]
 argument-hint: "<topic — e.g. octopus cognition, the history of harbors>"
@@ -7,7 +7,7 @@ argument-hint: "<topic — e.g. octopus cognition, the history of harbors>"
 
 *[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
-# /reading-bedtime-stories
+# /bedtime-story
 
 Generate a single ≈20-minute bedtime story on any topic, written to be read aloud by a text-to-speech engine. Designed to thread two goals that pull against each other: deliver something genuinely interesting AND help the listener drift toward sleep.
 
@@ -27,7 +27,7 @@ The skill resolves that tension structurally — substantive content lives in Ac
 
 ## Invocation
 
-- **With topic**: `/reading-bedtime-stories octopus cognition` → confirm the angle in one sentence, then write
+- **With topic**: `/bedtime-story octopus cognition` → confirm the angle in one sentence, then write
 - **Without topic**: ask "What topic? I'll write you a ≈20-minute story you can play in Speechify or any TTS app."
 
 ## Workflow
@@ -53,7 +53,7 @@ The skill resolves that tension structurally — substantive content lives in Ac
 
 6. **Run the validator** (catches TTS hazards and confirms word count):
    ```bash
-   python3 .claude/skills/reading-bedtime-stories/scripts/validate_tts.py <path>
+   python3 .claude/skills/bedtime-story/scripts/validate_tts.py <path>
    ```
    Fix anything it flags, then re-run until clean.
 
@@ -166,7 +166,7 @@ mkdir -p downloads/bedtime-stories
 
 Run the validator:
 ```bash
-python3 .claude/skills/reading-bedtime-stories/scripts/validate_tts.py downloads/bedtime-stories/<file>.txt
+python3 .claude/skills/bedtime-story/scripts/validate_tts.py downloads/bedtime-stories/<file>.txt
 ```
 
 It reports:
@@ -193,7 +193,7 @@ Also do a human pass:
 
 ### Example 1 — Topic given
 
-**User**: `/reading-bedtime-stories octopus cognition`
+**User**: `/bedtime-story octopus cognition`
 
 **Skill**:
 1. *"A twenty-minute drift through octopus cognition, leaning toward the strangeness of distributed intelligence. Sound right?"*
@@ -207,12 +207,12 @@ Also do a human pass:
 
 ### Example 2 — No topic
 
-**User**: `/reading-bedtime-stories`
+**User**: `/bedtime-story`
 
 **Skill**: *"What topic? I'll write you a roughly twenty-minute story you can play in Speechify or any TTS app. Anything from natural history to philosophy to a slow walk through a place — your pick."*
 
 ### Example 3 — Heavy topic
 
-**User**: `/reading-bedtime-stories the Battle of Stalingrad`
+**User**: `/bedtime-story the Battle of Stalingrad`
 
 **Skill**: *"That one runs hot for bedtime. Want me to angle it toward the quieter parts — the long winter, the river, daily life around the city before — or pick something adjacent like the geography of the Volga basin?"*

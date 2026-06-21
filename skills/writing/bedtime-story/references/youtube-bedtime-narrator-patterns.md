@@ -1,6 +1,6 @@
 # YouTube Bedtime Narrator Patterns — Research Notes
 
-Research synthesized from two long-form YouTube bedtime-science transcripts to inform the `reading-bedtime-stories` skill. Load this file when revising opening or closing templates, or when choosing between cluster-shape and thread-shape Act II structures.
+Research synthesized from two long-form YouTube bedtime-science transcripts to inform the `bedtime-story` skill. Load this file when revising opening or closing templates, or when choosing between cluster-shape and thread-shape Act II structures.
 
 ## Sources analyzed
 

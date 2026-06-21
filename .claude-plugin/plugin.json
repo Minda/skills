@@ -5,7 +5,7 @@
     "./skills/meta/hypercontext",
     "./skills/writing/de-ai",
     "./skills/writing/nerdsnipe",
-    "./skills/writing/reading-bedtime-stories",
+    "./skills/writing/bedtime-story",
     "./skills/research/download-url",
     "./skills/research/youtube-fetching-transcripts",
     "./skills/ui/creating-ascii-drawings",
