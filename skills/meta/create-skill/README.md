@@ -1,4 +1,4 @@
-# skill-create-workflow
+# create-skill
 
 Collaborative skill creation for Claude Code. Works through 11 structured questions with you and builds a `SKILL.md` from your answers — covering invocation, workflow shape, failure modes, file layout, and more.
 
@@ -8,14 +8,14 @@ Built on Anthropic's official [`skill-creator`](https://github.com/anthropics/sk
 
 ```bash
 # Interactive — start from a rough idea
-/skill-create-workflow
+/create-skill
 
 # Pre-seeded — describe the skill upfront
-/skill-create-workflow <skill name or idea>
+/create-skill <skill name or idea>
 
 # With full control — fill in the worksheet first, then invoke
 # Edit: templates/skill-request-longform.md
-/skill-create-workflow
+/create-skill
 ```
 
 ## Templates

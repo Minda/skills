@@ -49,5 +49,5 @@ Skills for building and maintaining skills.
 
 **User-invoked**
 
-- **[skill-create-workflow](./skills/meta/skill-create-workflow/SKILL.md)** — Expert guide for creating and writing Claude Code skills. Covers structure, best practices, bundled resources, and packaging.
+- **[create-skill](./skills/meta/create-skill/SKILL.md)** — Expert guide for creating and writing Claude Code skills. Covers structure, best practices, bundled resources, and packaging.
 - **[hypercontext](./skills/meta/hypercontext/SKILL.md)** — Render session state as a spatial ASCII map: threads, activity heat, files, tools, and context runway. Created by [Danielle Fong](https://daniellefong.com/).

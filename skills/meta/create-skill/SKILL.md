@@ -1,5 +1,5 @@
 ---
-name: skill-create-workflow
+name: create-skill
 description: Collaborative skill-creation workflow. Guides you through building a new Claude Code skill by working through a structured worksheet — invocation, workflow shape, failure modes, file structure, and more. Use when you want to create a new skill or understand how to structure one.
 allowed-tools: [Read, Write, Edit, Bash, Glob, Grep]
 argument-hint: "<skill idea or name — or leave blank to start from scratch>"
@@ -7,7 +7,7 @@ argument-hint: "<skill idea or name — or leave blank to start from scratch>"
 
 *[Minda Myers](https://mindamyers.com) · [𝕏](https://x.com/MindaMyers) · [GitHub](https://github.com/Minda) · [skills repo](https://github.com/Minda/skills)*
 
-# /skill-create-workflow
+# /create-skill
 
 Collaborative skill creation. Works through 11 structured questions with you — invocation, workflow shape, failure modes, file layout — and builds the SKILL.md from your answers.
 
@@ -79,6 +79,8 @@ Have them describe up to 4 routes, then the steps for each:
 > Real skills almost always branch. Without explicit routing, Claude either follows the wrong workflow or guesses — unreliably.
 
 If invoked bare (no argument), should it preview what it does and ask for input before proceeding? Yes / No.
+
+> **Dialog vs. conversational ask:** If the skill needs to pick between a small set of named routes (e.g., "create new / update existing / audit"), `AskUserQuestion` renders a clean multiple-choice dialog and blocks until the user selects. If the input is freeform or hard to enumerate, ask in plain text instead. Skills that route on a small, stable option set are good candidates for `AskUserQuestion` — note this in the workflow table above.
 
 ### Section 5 — Known Failure Modes
 
@@ -188,21 +190,31 @@ Once Parts 1–3 are complete:
 
 1. **Check the catalog** — ensure no duplicate exists:
    ```bash
-   cat skills/meta/skill-create-workflow/skills-catalog.json | jq '.skills[] | select(.name | contains("keyword"))'
+   cat skills/meta/create-skill/skills-catalog.json | jq '.skills[] | select(.name | contains("keyword"))'
    ```
 
 2. **Scaffold the directory:**
    ```bash
-   python skills/meta/skill-create-workflow/scripts/init_skill.py <skill-name> --path .claude/skills
+   python skills/meta/create-skill/scripts/init_skill.py <skill-name> --path .claude/skills
    ```
 
 3. **Write `SKILL.md`** using the worksheet answers. Quote the user's words verbatim where they gave specific phrasing.
 
 4. **Create reference files** for anything needed only sometimes (from Section 10).
 
-5. **Offer to package** for distribution (optional):
+5. **Check line count — split if over 500:**
    ```bash
-   python skills/meta/skill-create-workflow/scripts/package_skill.py .claude/skills/<skill-name>
+   wc -l .claude/skills/<skill-name>/SKILL.md
+   ```
+   If the result exceeds 500 lines, move each discrete workflow section into its own file under `references/` and replace the section body in `SKILL.md` with a single load instruction:
+   ```markdown
+   > See [`references/<workflow-name>.md`](./references/<workflow-name>.md)
+   ```
+   Repeat until `SKILL.md` is under 500 lines.
+
+6. **Offer to package** for distribution (optional):
+   ```bash
+   python skills/meta/create-skill/scripts/package_skill.py .claude/skills/<skill-name>
    ```
 
 ---
@@ -237,6 +249,17 @@ argument-hint: "<hint shown in skill picker>"
 |------|------------------------|
 | `Read`, `Glob`, `Grep`, `Task`, `TodoWrite` | No |
 | `Write`, `Edit`, `Bash`, `WebFetch`, `WebSearch` | Yes |
+| `AskUserQuestion` | No — built-in dialog, no `allowed-tools` entry needed |
+
+**`AskUserQuestion` capabilities and limits:**
+- Renders a structured multiple-choice dialog; 1–4 questions per call, 2–4 options each
+- Single-select (default) or multi-select per question
+- Each option accepts an optional `description` (fine print) and `preview` (markdown rendered side-by-side — useful for comparing code snippets or layouts)
+- A free-text "Other" option is always appended automatically — the only way to capture arbitrary text
+- Blocks until the user answers — Claude does not continue until a selection is made
+- Does **not** support open-ended text input (for that, ask in conversational text instead)
+
+Use `AskUserQuestion` when a skill needs a structured, bounded choice from the user. Prefer conversational text when the answer space is open-ended or unpredictable.
 
 Pattern matching: `Bash(git *)`, `Read(./secrets/**)`
 
@@ -270,6 +293,7 @@ Concise input/output pairs.
 - Loading files >10MB into context — use scripts
 - SKILL.md over ~500 lines — move content to `references/`
 - Skipping the catalog — read `skills-catalog.json` before creating anything new
+- Asking freeform questions when choices are well-defined — if a skill needs the user to pick from a bounded set of routes or options, design it to call `AskUserQuestion` rather than asking in plain text; the dialog UI is clearer and guarantees a valid selection
 
 ---
 
